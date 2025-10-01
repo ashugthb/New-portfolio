@@ -49,7 +49,7 @@ const Hero = () => {
   }, [text, isDeleting, loopNum, typingSpeed]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-4 pt-24 md:pt-0 overflow-hidden">
       {/* Animated gradient orbs */}
       <motion.div 
         style={{ y: y1 }}
