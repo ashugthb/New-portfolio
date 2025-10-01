@@ -49,7 +49,7 @@ const Hero = () => {
   }, [text, isDeleting, loopNum, typingSpeed]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-4 pt-20 overflow-hidden">
       {/* Animated gradient orbs */}
       <motion.div 
         style={{ y: y1 }}
@@ -69,28 +69,28 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{ opacity }}
           >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-cyan/10 border border-accent-cyan/20 mb-8"
-            >
-              <Sparkles className="w-4 h-4 text-accent-cyan" />
-              <span className="text-sm font-medium text-accent-cyan">Available for opportunities</span>
-            </motion.div>
-
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
               <span className="block bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-orange bg-clip-text text-transparent">
                 Ashvajeet Athawale
               </span>
             </h1>
 
-            <div className="h-20 mb-8">
+            <div className="h-20 mb-4">
               <p className="text-2xl md:text-3xl font-medium text-text-secondary">
                 <span className="text-accent-cyan">{text}</span>
                 <span className="animate-pulse">|</span>
               </p>
             </div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-cyan/10 border border-accent-cyan/20 mb-8"
+            >
+              <Sparkles className="w-4 h-4 text-accent-cyan" />
+              <span className="text-sm font-medium text-accent-cyan">Available for opportunities</span>
+            </motion.div>
 
             <p className="text-lg text-text-secondary mb-8 leading-relaxed max-w-xl">
               <span className="text-text-primary font-semibold">B.Tech in Electronics & Communication</span> from{' '}
