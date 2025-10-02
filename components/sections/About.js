@@ -96,7 +96,7 @@ const About = () => {
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  I believe in the power of technology to solve real-world problems and am constantly learning new tools and frameworks to expand my skill set. When Im not coding, you'll find me exploring new tech trends, participating in hackathons, or contributing to open-source projects.
+                  I believe in the power of technology to solve real-world problems and am constantly learning new tools and frameworks to expand my skill set. When Im not coding, youll find me exploring new tech trends, participating in hackathons, or contributing to open-source projects.
                 </p>
 
                 <div className="pt-4 border-t border-text-secondary/10">
