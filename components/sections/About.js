@@ -78,25 +78,25 @@ const About = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-text-primary">Hello, I'm Ashvajeet!</h3>
+                    <h3 className="text-2xl font-bold text-text-primary">Hello, Im Ashvajeet!</h3>
                     <p className="text-accent-cyan">ECE Student & Developer</p>
                   </div>
                 </div>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  I'm a final-year B.Tech student specializing in <span className="text-accent-cyan font-semibold">Electronics & Communication Engineering</span> at <span className="text-accent-purple font-semibold">IIIT Sonepat</span>, with a strong passion for technology and innovation.
+                  Im a final-year B.Tech student specializing in <span className="text-accent-cyan font-semibold">Electronics & Communication Engineering</span> at <span className="text-accent-purple font-semibold">IIIT Sonepat</span>, with a strong passion for technology and innovation.
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  My journey in tech started with curiosity about how things work, and has evolved into a deep love for <span className="text-accent-cyan font-semibold">Machine Learning</span> and <span className="text-accent-purple font-semibold">Full Stack Web Development</span>. I've had the privilege of working on diverse projects ranging from AI-powered recommendation systems to real-time web applications.
+                  My journey in tech started with curiosity about how things work, and has evolved into a deep love for <span className="text-accent-cyan font-semibold">Machine Learning</span> and <span className="text-accent-purple font-semibold">Full Stack Web Development</span>. Ive had the privilege of working on diverse projects ranging from AI-powered recommendation systems to real-time web applications.
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  During my internship at <span className="text-accent-orange font-semibold">InternPe</span>, I gained hands-on experience in building and optimizing ML models. As an active open-source contributor with <span className="text-accent-purple font-semibold">GirlScript Summer of Code</span>, I've collaborated with developers worldwide, contributing to 15+ projects and earning recognition for my consistent contributions.
+                  During my internship at <span className="text-accent-orange font-semibold">InternPe</span>, I gained hands-on experience in building and optimizing ML models. As an active open-source contributor with <span className="text-accent-purple font-semibold">GirlScript Summer of Code</span>, Ive collaborated with developers worldwide, contributing to 15+ projects and earning recognition for my consistent contributions.
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  I believe in the power of technology to solve real-world problems and am constantly learning new tools and frameworks to expand my skill set. When I'm not coding, you'll find me exploring new tech trends, participating in hackathons, or contributing to open-source projects.
+                  I believe in the power of technology to solve real-world problems and am constantly learning new tools and frameworks to expand my skill set. When Im not coding, you'll find me exploring new tech trends, participating in hackathons, or contributing to open-source projects.
                 </p>
 
                 <div className="pt-4 border-t border-text-secondary/10">
