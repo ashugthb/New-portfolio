@@ -14,15 +14,13 @@ const Projects = () => {
       gradient: "from-blue-500 via-purple-500 to-pink-500",
       technologies: ["Python", "OpenCV", "TensorFlow", "Computer Vision", "Real-time Processing"],
       features: [
-        "Real-time neural state classification from 168 channels",
-        "Processing 4 distinct visualization types simultaneously",
-        "Automated pattern identification reducing analysis time by 90%",
-        "Efficient quantification of neural activity",
-        "Computer Vision based classification pipeline"
+        "Real-time classification from 168 channels",
+        "4 distinct visualization types",
+        "90% reduction in analysis time"
       ],
-      github: "https://github.com/ashvajeet2722",
-      demo: "#",
-      category: "AI & Computer Vision",
+      github: "https://github.com/ashugthb/DDG-Dodecanogram",
+      demo: "https://github.com/ashugthb/DDG-Dodecanogram",
+      category: "AI &amp; Computer Vision",
       date: "Aug 2024"
     },
     {
@@ -32,15 +30,109 @@ const Projects = () => {
       gradient: "from-green-500 via-teal-500 to-blue-500",
       technologies: ["Python", "PyTorch", "Transformer Architecture", "Deep Learning"],
       features: [
-        "Reduced computational complexity from O(n²) to O(n)",
-        "10,000-token sequence processing on 4GB GPU",
-        "40% reduction in GPU training time",
-        "2.5x increase in long-context retention",
-        "Hierarchical staged memory token architecture"
+        "O(n²) to O(n) complexity reduction",
+        "10K tokens on 4GB GPU",
+        "40% faster GPU training"
       ],
-      github: "https://github.com/ashvajeet2722",
+      github: "https://github.com/ashugthb",
       demo: "#",
       category: "Deep Learning",
+      date: "Jun 2024"
+    },
+    {
+      title: "Full Stack Web App - Per Clean Laundry",
+      description: "Comprehensive laundry service web application with JWT authentication, invoice generation, and WhatsApp messaging integration for customer notifications and admin management.",
+      image: "/api/placeholder/600/400",
+      gradient: "from-purple-500 via-pink-500 to-red-500",
+      technologies: ["React.js", "Node.js", "MongoDB", "Redux Toolkit", "Material UI", "JWT"],
+      features: [
+        "JWT-based authentication",
+        "Automated invoice generation",
+        "WhatsApp notifications"
+      ],
+      github: "https://github.com/ashugthb/smart-cart-final",
+      demo: "#",
+      category: "Full Stack",
+      date: "May 2024"
+    },
+    {
+      title: "Self-Driving Car Simulation",
+      description: "Built from scratch without libraries - a self-driving car simulation implementing neural networks, genetic algorithms, and collision detection using vanilla JavaScript and HTML Canvas.",
+      image: "/api/placeholder/600/400",
+      gradient: "from-yellow-500 via-orange-500 to-red-500",
+      technologies: ["JavaScript", "HTML Canvas", "Neural Networks", "Genetic Algorithms"],
+      features: [
+        "Neural network from scratch",
+        "Genetic algorithm optimization",
+        "Real-time collision detection"
+      ],
+      github: "https://github.com/ashugthb/self-driving-car",
+      demo: "https://github.com/ashugthb/self-driving-car",
+      category: "Machine Learning",
+      date: "Jul 2024"
+    },
+    {
+      title: "WhatsApp Bot - Client Communication",
+      description: "Two-way communication bot for appointment booking, reminders, and order management using Twilio and Dialogflow for natural language processing and automated responses.",
+      image: "/api/placeholder/600/400",
+      gradient: "from-green-500 via-emerald-500 to-teal-500",
+      technologies: ["Node.js", "Express.js", "Twilio", "Dialogflow", "Green API"],
+      features: [
+        "Two-way client communication",
+        "Appointment booking &amp; reminders",
+        "NLP-powered responses"
+      ],
+      github: "https://github.com/ashugthb/whatsapp-bot0",
+      demo: "#",
+      category: "Backend Development",
+      date: "Feb 2024"
+    },
+    {
+      title: "Fluid Simulation - Physics Engine",
+      description: "Advanced fluid dynamics simulation built in C++ demonstrating real-time particle interactions, pressure calculations, and realistic fluid behavior using computational physics.",
+      image: "/api/placeholder/600/400",
+      gradient: "from-cyan-500 via-blue-500 to-indigo-500",
+      technologies: ["C++", "Physics Simulation", "Computational Fluid Dynamics"],
+      features: [
+        "Real-time fluid dynamics",
+        "Particle-based simulation",
+        "Accurate pressure modeling"
+      ],
+      github: "https://github.com/ashugthb/Fluid_simulation",
+      demo: "#",
+      category: "Computer Graphics",
+      date: "Sep 2024"
+    },
+    {
+      title: "Jaljyoti - Water Management Platform",
+      description: "Web application for water resource management and conservation awareness, featuring interactive dashboards and data visualization for sustainable water usage tracking.",
+      image: "/api/placeholder/600/400",
+      gradient: "from-blue-400 via-cyan-400 to-teal-400",
+      technologies: ["JavaScript", "React.js", "Data Visualization"],
+      features: [
+        "Water usage tracking",
+        "Interactive dashboards",
+        "Conservation insights"
+      ],
+      github: "https://github.com/ashugthb/jaljyoti",
+      demo: "#",
+      category: "Web Development",
+      date: "Aug 2024"
+    },
+    {
+      title: "Real-Time Chat Application",
+      description: "Full-featured real-time chat application with user authentication, private messaging, group chats, and online status indicators built with modern web technologies.",
+      image: "/api/placeholder/600/400",
+      gradient: "from-pink-500 via-purple-500 to-indigo-500",
+      technologies: ["HTML", "CSS", "JavaScript", "Socket.io", "Node.js"],
+      features: [
+        "Real-time messaging",
+        "Group chat support",
+        "Online status tracking"
+      ],
+      github: "https://github.com/ashugthb/chatapp",
+      demo: "#",
+      category: "Web Development",
       date: "Jun 2024"
     }
   ];
@@ -62,11 +154,11 @@ const Projects = () => {
             <GradientText>Featured Projects</GradientText>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Showcasing my best work in web development, machine learning, and software engineering
+            From research projects to full-stack applications - explore my diverse portfolio of 20+ projects
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <GlassCard key={index} delay={index * 0.1} className="group overflow-hidden">
               {/* Project Image/Gradient */}
@@ -113,11 +205,10 @@ const Projects = () => {
 
                 {/* Features */}
                 <div className="space-y-2">
-                  <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wide">Key Features</h4>
-                  <ul className="grid grid-cols-2 gap-2">
+                  <ul className="space-y-1">
                     {project.features.map((feature, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span className="text-blue-400 mt-0.5">▹</span>
+                      <li key={i} className="flex items-start gap-2 text-sm text-gray-400">
+                        <span className="text-blue-400 mt-0.5">✓</span>
                         <span>{feature}</span>
                       </li>
                     ))}

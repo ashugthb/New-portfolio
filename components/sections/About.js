@@ -200,8 +200,8 @@ const About = () => {
         >
           {[
             { value: "4th", label: "Year B.Tech" },
-            { value: "2", label: "Research Projects" },
-            { value: "1", label: "Patent & Paper" },
+            { value: "20+", label: "GitHub Projects" },
+            { value: "1", label: "Patent &amp; Paper" },
             { value: "2", label: "Leadership Roles" }
           ].map((stat, index) => (
             <GlassCard key={index} className="text-center">
