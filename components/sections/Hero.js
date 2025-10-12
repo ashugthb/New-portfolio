@@ -93,7 +93,7 @@ const Hero = () => {
             </motion.div>
 
             <p className="text-lg text-text-secondary mb-8 leading-relaxed max-w-xl">
-              <span className="text-text-primary font-semibold">B.Tech in Electronics & Communication Engineering</span>
+              <span className="text-text-primary font-semibold">B.Tech in Electronics &amp; Communication Engineering</span>
               <br />
               <span className="text-accent-cyan">Malviya National Institute of Technology, Jaipur</span>
               <br />

@@ -57,7 +57,7 @@ const Education = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-4">
-            <GradientText>Education & Certifications</GradientText>
+            <GradientText>Education &amp; Certifications</GradientText>
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
             My academic background and continuous learning journey

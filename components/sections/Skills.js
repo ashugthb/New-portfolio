@@ -52,7 +52,7 @@ const Skills = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-4">
-            <GradientText>Skills & Technologies</GradientText>
+            <GradientText>Skills &amp; Technologies</GradientText>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Tools and technologies I work with to build amazing products

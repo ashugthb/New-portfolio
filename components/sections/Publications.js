@@ -43,7 +43,7 @@ const Publications = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-4">
-            <GradientText>Publications & Patents</GradientText>
+            <GradientText>Publications &amp; Patents</GradientText>
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
             Research contributions and intellectual property

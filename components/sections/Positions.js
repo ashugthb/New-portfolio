@@ -39,7 +39,7 @@ const Positions = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-4">
-            <GradientText>Leadership & Responsibilities</GradientText>
+            <GradientText>Leadership &amp; Responsibilities</GradientText>
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
             Positions of responsibility and leadership roles

@@ -208,7 +208,7 @@ const Contact = () => {
         >
           <p className="text-gray-400">
             © {new Date().getFullYear()} Ashvajeet Athawale. Built with{' '}
-            <span className="text-red-500">♥</span> using Next.js & Tailwind CSS
+            <span className="text-red-500">♥</span> using Next.js &amp; Tailwind CSS
           </p>
           <p className="text-gray-500 text-sm mt-2">
             Open for opportunities and collaborations

@@ -78,17 +78,17 @@ const About = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-text-primary">Hello, Im Ashvajeet!</h3>
-                    <p className="text-accent-cyan">ECE Student & Developer</p>
+                    <h3 className="text-2xl font-bold text-text-primary">Hello, I&apos;m Ashvajeet!</h3>
+                    <p className="text-accent-cyan">ECE Student &amp; Developer</p>
                   </div>
                 </div>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  I'm a 4th-year B.Tech student in <span className="text-accent-cyan font-semibold">Electronics & Communication Engineering</span> at <span className="text-accent-purple font-semibold">Malviya National Institute of Technology, Jaipur</span>, expected to graduate in May 2026.
+                  I&apos;m a 4th-year B.Tech student in <span className="text-accent-cyan font-semibold">Electronics &amp; Communication Engineering</span> at <span className="text-accent-purple font-semibold">Malviya National Institute of Technology, Jaipur</span>, expected to graduate in May 2026.
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  My expertise lies in <span className="text-accent-cyan font-semibold">AI & Computer Vision</span>, <span className="text-accent-purple font-semibold">Deep Learning</span>, and <span className="text-accent-orange font-semibold">Full Stack Development</span>. I've worked on cutting-edge projects involving neural data analysis, transformer models, and real-time visualization systems.
+                  My expertise lies in <span className="text-accent-cyan font-semibold">AI &amp; Computer Vision</span>, <span className="text-accent-purple font-semibold">Deep Learning</span>, and <span className="text-accent-orange font-semibold">Full Stack Development</span>. I&apos;ve worked on cutting-edge projects involving neural data analysis, transformer models, and real-time visualization systems.
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
@@ -96,7 +96,7 @@ const About = () => {
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  I'm passionate about research and innovation, having co-authored a patent on "Multi-Band electromagnetic burst analyzer" and a research paper on high-frequency circuit design for brain data visualization.
+                  I&apos;m passionate about research and innovation, having co-authored a patent on &quot;Multi-Band electromagnetic burst analyzer&quot; and a research paper on high-frequency circuit design for brain data visualization.
                 </p>
 
                 <div className="pt-4 border-t border-text-secondary/10">
