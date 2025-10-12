@@ -78,7 +78,7 @@ const About = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-text-primary">Hello, I'm Ashvajeet!</h3>
+                    <h3 className="text-2xl font-bold text-text-primary">Hello, Im Ashvajeet!</h3>
                     <p className="text-accent-cyan">ECE Student & Developer</p>
                   </div>
                 </div>
