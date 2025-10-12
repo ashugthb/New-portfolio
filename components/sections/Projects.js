@@ -8,140 +8,40 @@ import Image from 'next/image';
 const Projects = () => {
   const projects = [
     {
-      title: "AI-Powered Song Recommendation System",
-      description: "Intelligent music recommendation engine leveraging machine learning algorithms including content-based and collaborative filtering. Analyzes user listening patterns, song features, and preferences to deliver personalized song suggestions with high accuracy.",
+      title: "Automated Neural State Classification from DDG Visualizations",
+      description: "Developed a Computer Vision model using OpenCV and TensorFlow to classify neural states from 4 distinct real-time visualizations, processing data stream from 168 channels.",
       image: "/api/placeholder/600/400",
       gradient: "from-blue-500 via-purple-500 to-pink-500",
-      technologies: ["Python", "TensorFlow", "Pandas", "Scikit-learn", "NumPy", "Flask", "Spotify API"],
+      technologies: ["Python", "OpenCV", "TensorFlow", "Computer Vision", "Real-time Processing"],
       features: [
-        "Collaborative filtering & content-based algorithms",
-        "User preference learning & behavior analysis",
-        "Real-time personalized song suggestions",
-        "Integration with music streaming APIs",
-        "Performance metrics: 85% accuracy in recommendations"
+        "Real-time neural state classification from 168 channels",
+        "Processing 4 distinct visualization types simultaneously",
+        "Automated pattern identification reducing analysis time by 90%",
+        "Efficient quantification of neural activity",
+        "Computer Vision based classification pipeline"
       ],
       github: "https://github.com/ashvajeet2722",
       demo: "#",
-      category: "Machine Learning"
+      category: "AI & Computer Vision",
+      date: "Aug 2024"
     },
     {
-      title: "Real-Time Chat Application",
-      description: "Full-stack real-time messaging platform built with modern web technologies. Features include instant messaging using WebSocket, user authentication, typing indicators, online/offline status, and persistent message history stored in MongoDB.",
+      title: "Hierarchical Transformer Attention Model",
+      description: "Devised a hierarchical attention model with staged memory tokens to cut computational complexity from O(n²) to O(n), enabling a 10,000-token sequence length on a single 4GB GPU.",
       image: "/api/placeholder/600/400",
       gradient: "from-green-500 via-teal-500 to-blue-500",
-      technologies: ["React.js", "Node.js", "Socket.io", "MongoDB", "Express.js", "JWT", "CSS3"],
+      technologies: ["Python", "PyTorch", "Transformer Architecture", "Deep Learning"],
       features: [
-        "Real-time bidirectional communication with Socket.io",
-        "Secure user authentication with JWT tokens",
-        "Live typing indicators & online status",
-        "Message persistence with MongoDB",
-        "Responsive design for all devices"
+        "Reduced computational complexity from O(n²) to O(n)",
+        "10,000-token sequence processing on 4GB GPU",
+        "40% reduction in GPU training time",
+        "2.5x increase in long-context retention",
+        "Hierarchical staged memory token architecture"
       ],
       github: "https://github.com/ashvajeet2722",
       demo: "#",
-      category: "Web Development"
-    },
-    {
-      title: "Weather Forecasting Dashboard",
-      description: "Interactive weather application providing comprehensive weather data and forecasts. Features real-time weather updates, 5-day forecasts, temperature trends, and location-based weather information using third-party weather APIs.",
-      image: "/api/placeholder/600/400",
-      gradient: "from-orange-500 via-red-500 to-pink-500",
-      technologies: ["JavaScript", "React.js", "OpenWeather API", "Chart.js", "CSS3", "Axios"],
-      features: [
-        "Real-time weather data & conditions",
-        "5-day detailed forecast with hourly breakdowns",
-        "Interactive charts for temperature trends",
-        "Location-based weather search",
-        "Beautiful responsive UI with weather animations"
-      ],
-      github: "https://github.com/ashvajeet2722",
-      demo: "#",
-      category: "Web Development"
-    },
-    {
-      title: "Student Management System",
-      description: "Comprehensive web-based student management system for educational institutions. Manages student records, attendance tracking, grade management, course enrollment, and generates detailed reports for administrators and teachers.",
-      image: "/api/placeholder/600/400",
-      gradient: "from-purple-500 via-pink-500 to-rose-500",
-      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Bootstrap"],
-      features: [
-        "Complete CRUD operations for student data",
-        "Attendance tracking & reporting system",
-        "Grade management & performance analytics",
-        "Role-based access control (Admin/Teacher/Student)",
-        "CSV export & data visualization"
-      ],
-      github: "https://github.com/ashvajeet2722",
-      demo: "#",
-      category: "Web Development"
-    },
-    {
-      title: "Portfolio Website Builder",
-      description: "Dynamic portfolio generator enabling users to create professional portfolio websites without coding. Features customizable templates, drag-and-drop interface, project showcase sections, and one-click deployment to popular hosting platforms.",
-      image: "/api/placeholder/600/400",
-      gradient: "from-cyan-500 via-blue-500 to-purple-500",
-      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Tailwind CSS", "Vercel API"],
-      features: [
-        "10+ professional portfolio templates",
-        "Drag-and-drop section customization",
-        "Real-time preview & editing",
-        "One-click deployment to Vercel/Netlify",
-        "SEO optimization & responsive design"
-      ],
-      github: "https://github.com/ashvajeet2722",
-      demo: "#",
-      category: "Web Development"
-    },
-    {
-      title: "Movie Recommendation System",
-      description: "Advanced movie recommendation engine using machine learning techniques. Implements collaborative filtering and content-based filtering algorithms to suggest movies based on user ratings, viewing history, and movie attributes like genre and cast.",
-      image: "/api/placeholder/600/400",
-      gradient: "from-yellow-500 via-orange-500 to-red-500",
-      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Flask", "TMDB API"],
-      features: [
-        "Hybrid recommendation algorithm (collaborative + content)",
-        "User rating analysis & preference learning",
-        "Movie similarity calculation using cosine similarity",
-        "Integration with TMDB for movie metadata",
-        "90% recommendation accuracy achieved"
-      ],
-      github: "https://github.com/ashvajeet2722",
-      demo: "#",
-      category: "Machine Learning"
-    },
-    {
-      title: "E-Commerce Web Application",
-      description: "Full-featured e-commerce platform with comprehensive shopping functionality. Includes product catalog, shopping cart, secure checkout process, order management, and admin dashboard for inventory and sales management.",
-      image: "/api/placeholder/600/400",
-      gradient: "from-indigo-500 via-purple-500 to-pink-500",
-      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Stripe API", "Redux"],
-      features: [
-        "Product browsing with search & filters",
-        "Shopping cart with dynamic updates",
-        "Secure payment integration with Stripe",
-        "Order tracking & history",
-        "Admin dashboard for inventory management"
-      ],
-      github: "https://github.com/ashvajeet2722",
-      demo: "#",
-      category: "Web Development"
-    },
-    {
-      title: "Task Management System",
-      description: "Collaborative task management application for teams and individuals. Features task creation, assignment, priority management, deadline tracking, and progress monitoring with intuitive dashboard and real-time updates.",
-      image: "/api/placeholder/600/400",
-      gradient: "from-teal-500 via-green-500 to-emerald-500",
-      technologies: ["React.js", "Node.js", "MongoDB", "Socket.io", "Tailwind CSS"],
-      features: [
-        "Task creation & assignment workflow",
-        "Priority levels & deadline management",
-        "Real-time collaboration with Socket.io",
-        "Progress tracking dashboard",
-        "Team member management & notifications"
-      ],
-      github: "https://github.com/ashvajeet2722",
-      demo: "#",
-      category: "Web Development"
+      category: "Deep Learning",
+      date: "Jun 2024"
     }
   ];
 

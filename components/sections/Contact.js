@@ -17,14 +17,14 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 7588862722",
-      href: "tel:+917588862722",
+      value: "+91 9579254358",
+      href: "tel:+919579254358",
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "IIIT Sonepat, Haryana, India",
+      value: "MNIT Jaipur, Rajasthan, India",
       href: "#",
       color: "from-green-500 to-teal-500"
     }
@@ -40,7 +40,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/ashvajeet-athawale-8ab00a253",
+      href: "https://linkedin.com/in/ashvajeet-athawale",
       color: "hover:text-blue-400"
     },
     {

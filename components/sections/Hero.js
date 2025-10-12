@@ -17,10 +17,10 @@ const Hero = () => {
   const [typingSpeed, setTypingSpeed] = useState(150);
 
   const roles = [
-    'Machine Learning Engineer',
+    'B.Tech 4th Year Student',
+    'AI & Computer Vision Engineer',
     'Full Stack Developer',
-    'AI Enthusiast',
-    'Open Source Contributor'
+    'Research Intern at IIT Mandi'
   ];
 
   useEffect(() => {
@@ -93,9 +93,11 @@ const Hero = () => {
             </motion.div>
 
             <p className="text-lg text-text-secondary mb-8 leading-relaxed max-w-xl">
-              <span className="text-text-primary font-semibold">B.Tech in Electronics & Communication</span> from{' '}
-              <span className="text-accent-cyan">Indian Institute of Information Technology, Sonepat</span>
-              . Passionate about building intelligent solutions with ML and modern web technologies.
+              <span className="text-text-primary font-semibold">B.Tech in Electronics & Communication Engineering</span>
+              <br />
+              <span className="text-accent-cyan">Malviya National Institute of Technology, Jaipur</span>
+              <br />
+              <span className="text-text-secondary">Nov 2022 - May 2026 (Expected)</span>
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">
@@ -123,7 +125,7 @@ const Hero = () => {
             <div className="flex gap-4">
               {[
                 { icon: Github, href: 'https://github.com/ashvajeet2722', label: 'GitHub' },
-                { icon: Linkedin, href: 'https://www.linkedin.com/in/ashvajeet-athawale-8ab00a253', label: 'LinkedIn' },
+                { icon: Linkedin, href: 'https://linkedin.com/in/ashvajeet-athawale', label: 'LinkedIn' },
                 { icon: Mail, href: 'mailto:ashvajeetathawale7@gmail.com', label: 'Email' },
               ].map((social, index) => (
                 <motion.a

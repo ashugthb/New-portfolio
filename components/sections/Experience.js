@@ -7,33 +7,30 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Machine Learning Intern",
-      company: "InternPe",
-      location: "Remote",
-      period: "June 2024 - July 2024",
+      title: "Research Intern",
+      company: "IIT Mandi",
+      location: "Mandi, India",
+      period: "May 2025 - July 2025",
       description: [
-        "Built and deployed machine learning models using TensorFlow and scikit-learn for predictive analytics",
-        "Performed comprehensive data preprocessing, feature engineering, and exploratory data analysis",
-        "Implemented various ML algorithms including Linear Regression, Decision Trees, and Neural Networks",
-        "Optimized model performance through hyperparameter tuning and cross-validation techniques",
-        "Collaborated with team members to deliver scalable ML solutions for real-world business problems"
+        "Engineered a multithreaded C++ application to process a 10Gbps data stream from 168 channels, accelerating FFT computations by 4x with the FFTW3 library",
+        "Secured a thread-safe I/O system using mutex locks, guaranteeing zero data loss between the C++ core and a Next.js backend processing over 100,000 data points per second",
+        "Delivered a real-time Next.js dashboard rendering 4 complex neural visualizations concurrently (12 Frequency bands, Time phasing, Poly atomic time crystal, instantaneous phase window)",
+        "Constructed a full-stack, test-ready prototype that integrated 3 custom hardware components, cutting the end-to-end signal-to-visualization pipeline time by 30%"
       ],
-      skills: ["Python", "TensorFlow", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+      skills: ["C++", "Next.js", "FFTW3", "Real-time Processing", "Data Visualization", "Multithreading"],
       color: "from-blue-500 to-cyan-500"
     },
     {
-      title: "Open Source Contributor",
-      company: "GirlScript Summer of Code (GSSoC)",
+      title: "Full Stack Developer Intern",
+      company: "Per Clean Laundry Services",
       location: "Remote",
-      period: "May 2024 - August 2024",
+      period: "May 2024 - December 2024",
       description: [
-        "Actively contributed to 15+ open-source projects with focus on web development and documentation",
-        "Implemented new features, fixed critical bugs, and enhanced UI/UX for multiple repositories",
-        "Collaborated with global developers using Git workflow and conducted thorough code reviews",
-        "Improved project documentation and created comprehensive guides for new contributors",
-        "Earned recognition and badges for consistent high-quality contributions to the community"
+        "Engineered different APIs, including a React.js report generation module, optimized query handling, OTP verification and WhatsApp notification, and backend for 30+ APIs, with advanced logger debugging system",
+        "Developed a custom unit testing framework from scratch using Node.js, without using external libraries",
+        "Developed the LLD document solution for all orders fetching improving latency of 40%"
       ],
-      skills: ["JavaScript", "React.js", "Node.js", "Git", "GitHub", "Open Source"],
+      skills: ["React.js", "Node.js", "API Development", "MongoDB", "WhatsApp API", "Unit Testing", "Logger"],
       color: "from-purple-500 to-pink-500"
     }
   ];

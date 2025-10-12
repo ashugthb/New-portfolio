@@ -7,40 +7,34 @@ import { Code2, Brain, Database, Globe, Palette, Wrench } from 'lucide-react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
-      icon: Code2,
-      color: "from-blue-500 to-cyan-500",
-      skills: ["Python", "C++", "C", "JavaScript", "SQL", "HTML5", "CSS3"]
-    },
-    {
-      title: "AI & Machine Learning",
+      title: "AI & Computer Vision",
       icon: Brain,
       color: "from-purple-500 to-pink-500",
-      skills: ["TensorFlow", "Scikit-learn", "Pandas", "NumPy", "Keras", "Data Analysis", "Model Training"]
+      skills: ["Machine Learning", "Deep Learning", "Computer Vision", "Image Processing"]
     },
     {
-      title: "Web Development",
+      title: "Libraries & Frameworks",
+      icon: Code2,
+      color: "from-blue-500 to-cyan-500",
+      skills: ["OpenCV", "TensorFlow", "PyTorch", "Pandas", "NumPy", "Matplotlib", "Jest"]
+    },
+    {
+      title: "Programming Languages",
       icon: Globe,
       color: "from-green-500 to-teal-500",
-      skills: ["React.js", "Next.js", "Node.js", "Express.js", "Tailwind CSS", "Bootstrap", "REST APIs"]
+      skills: ["Python", "C++", "JavaScript", "TypeScript", "SQL"]
     },
     {
-      title: "Databases & Backend",
-      icon: Database,
-      color: "from-orange-500 to-red-500",
-      skills: ["MySQL", "MongoDB", "PostgreSQL", "Firebase", "Socket.io", "API Development"]
-    },
-    {
-      title: "Design & UI/UX",
-      icon: Palette,
-      color: "from-pink-500 to-rose-500",
-      skills: ["Figma", "Adobe Photoshop", "UI Design", "Responsive Design", "Wireframing", "Prototyping"]
-    },
-    {
-      title: "Tools & Technologies",
+      title: "Developer Tools",
       icon: Wrench,
       color: "from-yellow-500 to-orange-500",
-      skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Postman", "Vercel", "npm"]
+      skills: ["Git", "GitHub", "Docker", "Postman", "Google Colab", "MongoDB Compass"]
+    },
+    {
+      title: "Cloud Services",
+      icon: Database,
+      color: "from-orange-500 to-red-500",
+      skills: ["AWS Lambda", "AWS EC2", "AWS SNS", "Google Cloud", "Twilio", "Logger"]
     }
   ];
 

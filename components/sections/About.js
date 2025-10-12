@@ -8,21 +8,21 @@ import Tilt from 'react-parallax-tilt';
 const About = () => {
   const highlights = [
     {
-      icon: Code2,
-      title: "Full Stack Development",
-      description: "Proficient in building modern web applications using React.js, Next.js, Node.js, and various databases",
-      color: "from-blue-500 to-cyan-500"
-    },
-    {
       icon: Brain,
-      title: "Machine Learning",
-      description: "Experienced in developing ML models with TensorFlow, scikit-learn, and implementing recommendation systems",
+      title: "AI & Computer Vision",
+      description: "Specializing in neural state classification, real-time data processing, and deep learning models",
       color: "from-purple-500 to-pink-500"
     },
     {
+      icon: Code2,
+      title: "Research & Innovation",
+      description: "Co-authored patent and research paper on neural data analysis and high-frequency circuit design",
+      color: "from-blue-500 to-cyan-500"
+    },
+    {
       icon: Globe,
-      title: "Open Source Contributor",
-      description: "Active contributor to GSSoC with 15+ projects and consistent high-quality contributions",
+      title: "Full Stack Development",
+      description: "Building scalable applications with React.js, Next.js, Node.js, and real-time data visualization",
       color: "from-green-500 to-teal-500"
     }
   ];
@@ -84,19 +84,19 @@ const About = () => {
                 </div>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  I'm a final-year B.Tech student specializing in <span className="text-accent-cyan font-semibold">Electronics & Communication Engineering</span> at <span className="text-accent-purple font-semibold">IIIT Sonepat</span>, with a strong passion for technology and innovation.
+                  I'm a 4th-year B.Tech student in <span className="text-accent-cyan font-semibold">Electronics & Communication Engineering</span> at <span className="text-accent-purple font-semibold">Malviya National Institute of Technology, Jaipur</span>, expected to graduate in May 2026.
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  My journey in tech started with curiosity about how things work, and has evolved into a deep love for <span className="text-accent-cyan font-semibold">Machine Learning</span> and <span className="text-accent-purple font-semibold">Full Stack Web Development</span>. I've had the privilege of working on diverse projects ranging from AI-powered recommendation systems to real-time web applications.
+                  My expertise lies in <span className="text-accent-cyan font-semibold">AI & Computer Vision</span>, <span className="text-accent-purple font-semibold">Deep Learning</span>, and <span className="text-accent-orange font-semibold">Full Stack Development</span>. I've worked on cutting-edge projects involving neural data analysis, transformer models, and real-time visualization systems.
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  During my internship at <span className="text-accent-orange font-semibold">InternPe</span>, I gained hands-on experience in building and optimizing ML models. As an active open-source contributor with <span className="text-accent-purple font-semibold">GirlScript Summer of Code</span>, I've collaborated with developers worldwide, contributing to 15+ projects and earning recognition for my consistent contributions.
+                  As a Research Intern at <span className="text-accent-cyan font-semibold">IIT Mandi</span>, I engineered a multithreaded C++ application processing 10Gbps data streams from 168 channels, and built real-time Next.js dashboards for neural visualizations. I also worked as a Full Stack Developer Intern at <span className="text-accent-purple font-semibold">Per Clean Laundry Services</span>, developing 30+ APIs and custom testing frameworks.
                 </p>
 
                 <p className="text-text-secondary text-lg leading-relaxed">
-                  I believe in the power of technology to solve real-world problems and am constantly learning new tools and frameworks to expand my skill set. When I'm not coding, you'll find me exploring new tech trends, participating in hackathons, or contributing to open-source projects.
+                  I'm passionate about research and innovation, having co-authored a patent on "Multi-Band electromagnetic burst analyzer" and a research paper on high-frequency circuit design for brain data visualization.
                 </p>
 
                 <div className="pt-4 border-t border-text-secondary/10">
@@ -199,10 +199,10 @@ const About = () => {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6"
         >
           {[
-            { value: "8.75", label: "CGPA" },
-            { value: "20+", label: "Projects" },
-            { value: "15+", label: "Open Source Contributions" },
-            { value: "4+", label: "Certifications" }
+            { value: "4th", label: "Year B.Tech" },
+            { value: "2", label: "Research Projects" },
+            { value: "1", label: "Patent & Paper" },
+            { value: "2", label: "Leadership Roles" }
           ].map((stat, index) => (
             <GlassCard key={index} className="text-center">
               <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-orange bg-clip-text text-transparent mb-2">

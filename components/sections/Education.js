@@ -9,49 +9,34 @@ const Education = () => {
   const education = {
     degree: "Bachelor of Technology (B.Tech)",
     major: "Electronics & Communication Engineering",
-    institution: "Indian Institute of Information Technology, Sonepat",
-    location: "Sonepat, Haryana, India",
-    duration: "2022 - 2026",
-    cgpa: "8.75 / 10.0",
+    institution: "Malviya National Institute of Technology, Jaipur",
+    location: "Jaipur, Rajasthan, India",
+    duration: "Nov 2022 - May 2026 (Expected)",
+    cgpa: "",
     achievements: [
-      "Strong foundation in Electronics, Communication Systems, and Signal Processing",
-      "Active participant in technical workshops and coding competitions",
-      "Member of college coding club and technical societies",
-      "Completed multiple certifications in Web Development and Machine Learning"
+      "Class XII (CBSE, Mar 2021): Scored 92% (Ranked 2nd out of 80 students)",
+      "Class X (CBSE, Mar 2019): Scored 86.7%",
+      "General Secretary: Classical Music and Dance Club, MNIT Jaipur",
+      "Joint Secretary: Aeromodelling Club, MNIT Jaipur"
     ],
     coursework: [
-      "Data Structures & Algorithms",
-      "Object-Oriented Programming",
-      "Database Management Systems",
-      "Operating Systems",
-      "Computer Networks",
-      "Machine Learning",
-      "Digital Signal Processing",
-      "Microprocessors & Microcontrollers"
+      "Neural Network",
+      "Deep Learning",
+      "Computer Vision",
+      "Image Processing",
+      "React.js with Redux Toolkit"
     ]
   };
 
   const certifications = [
     {
-      title: "Machine Learning Specialization",
+      title: "Deep Learning Specialization",
       issuer: "Coursera",
       date: "2024",
       icon: "🎓"
     },
     {
-      title: "Full Stack Web Development",
-      issuer: "Udemy",
-      date: "2024",
-      icon: "💻"
-    },
-    {
-      title: "Python for Data Science",
-      issuer: "DataCamp",
-      date: "2023",
-      icon: "🐍"
-    },
-    {
-      title: "React.js Advanced Concepts",
+      title: "React.js with Redux Toolkit",
       issuer: "Udemy",
       date: "2024",
       icon: "⚛️"
